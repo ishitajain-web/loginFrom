@@ -4,15 +4,15 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-          <div>
-            <input placeholder='first name'/>
-            <input placeholder='second name'/>
-            <input placeholder='Enter you semail'/>
-            <input placeholder='password'/>
+      <img className='bgImg' src='https://img.freepik.com/free-photo/colorful-geometric-paper-object-pack_23-2148547826.jpg?ga=GA1.1.980739427.1725951671&semt=ais_incoming' alt ="backgroundimg"/>
+          <form className='formBox'>
+            <div className='loginText'>Login</div>
+            <input type='text' placeholder='First name'/><br/>
+            <input type='text' placeholder='Second name'/><br/>
+            <input type ="email" placeholder='Enter you Email'/><br/>
+            <input type='password' placeholder='Password'/><br/>
             <button>Submit</button>
-            </div>        
-      </header>
+            </form>        
     </div>
   );
 }
