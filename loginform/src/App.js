@@ -11,7 +11,7 @@ function App() {
             <input type='text' placeholder='Second name'/><br/>
             <input type ="email" placeholder='Enter you Email'/><br/>
             <input type='password' placeholder='Password'/><br/>
-            <button>Submit</button>
+            <button className='btn'>Submit</button>
             </form>        
     </div>
   );
